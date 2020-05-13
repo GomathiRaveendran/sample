@@ -1,0 +1,55 @@
+.bait {
+  display: block;
+  width: 20%;
+  height: 30%;
+  margin: 10vh auto;
+  margin-bottom: 0;
+  font-size: 200%;
+  letter-spacing: 0.35%;
+  text-align: center;
+  border: solid;
+  border-width: 4px;
+  padding: 2%;
+  color: rgba(203, 14, 0, 0.5);
+  transition-property: border-radius, box-shadow, font-size, letter-spacing,
+    border-width, color;
+  transition-duration: 1s;
+}
+
+.bait:hover {
+  color: rgb(203, 143, 23);
+  border-width: 8px;
+  /*   font-size: 12vh; */
+  letter-spacing: 1%;
+  box-shadow: 10px 10px rgba(203, 143, 23, 0.5);
+}
+
+#cons {
+  margin-bottom: 50vh;
+  font-size: 110%;
+}
+
+#cons:hover {
+  color: rgb(255, 255, 255);
+  border-width: 8px;
+  border-style: double;
+  border-radius: 4%;
+  box-shadow: none;
+  background-color: rgb(255, 0, 50);
+}
+
+#dat {
+  position: fixed;
+  width: 40%;
+  height: 55%;
+  display: block;
+  margin-left: 30%;
+  background-color: rgba(203, 2, 170, 0.4);
+  text-align: center;
+  color: white;
+  white-space: pre;
+  line-height: 1010%;
+  font-size: 110%;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
+  display: none;
+}
