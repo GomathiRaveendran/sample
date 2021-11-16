@@ -17,7 +17,7 @@ function threein(el) {
     "As of " +
     d.getDate() +
     " / " +
-    month[d.getMonth()] +
+    month[d.getMonth()+1] +
     " / " +
     d.getFullYear();
 }
@@ -33,7 +33,7 @@ function frin(el)
 function frout() {document.getElementsByClassName('peek')[0].src=''; document.getElementsByClassName('peek')[1].src='';}
 
 var month = [
-  "Dummy",
+  "-",
   "Jan",
   "Feb",
   "Mar",
